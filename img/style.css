@@ -1,0 +1,98 @@
+body{
+    background-color: #000000;
+  }
+  
+  .contenido {
+    left: 35%;
+    top: 20%;
+    box-sizing: border-box;
+    position: absolute;
+    width: 360px;
+    height: 800px;
+    background: rgb(0, 0, 0);
+    border: 1px solid #FFFFFF;
+    border-radius: 50px;
+  }
+  
+  .logo {
+    position: relative;
+    left: 0px;
+    top: 56.22px;
+    width: 483.58px;
+    height: 458.17px;
+  }
+  
+  .name h1 {
+    position: absolute;
+    left: 25%;
+    top: 344px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    color: #FFEFEF;
+  }
+  
+  .pin {
+    position: absolute;
+    left: 10px;
+    top: 399px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 17px;
+    color: #FFEFEF;
+  }
+  
+  .teclado input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 290px;
+    height: 50px;
+    left: 50px;
+    top: 55%;
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #6DEC40;
+    border-radius: 10px;
+  }
+  
+  .botones button{
+    position: relative;
+    font-size: 25px;
+    padding: 10px 20px;
+    left: 25%;
+    top: 40px;
+    border: 3px solid #6DEC40;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+  }
+  
+  .pregunta p {
+    position: absolute;
+    width: 209px;
+    height: 17px;
+    left: calc(50% - 209px/2 + 0.5px);
+    top: 750px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+  
+  .registrarse p {
+    position: absolute;
+    width: 209px;
+    height: 17px;
+    left: 55%;
+    top: 750px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
